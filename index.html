@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+                <div id="upper">
+                    <img id="img1" src="illustration-sign-up-mobile.svg" alt="logo">
+                </div>
+                <div id="lower">
+                    <h1>Stay updated!</h1>
+                    <p id="first-text">Join 60,000+ product managers receiving monthly updates on:</p>
+                    <ul>
+                        <li><div id="icon1-div"><img id="icon1" src="icon-list.svg">Product discovery and building what matters</div></li>
+                        <li><div id="icon1-div"><img id="icon1" src="icon-list.svg">Measuring to ensure updates are a success</div></li>
+                        <li><div id="icon1-div"><img id="icon1" src="icon-list.svg">And much more!</div></li>
+                    </ul>
+                    
+                    <form id="subscription">
+                        <label id= "label1" for="fname">Email address<p id="email-valid"></p></label>
+                        <input type="text" id="email" name="email" value="email@company.com">
+                        <input type="submit" id = "button1" value="Subscribe to monthly newsletter">
+                    </form>
+                </div>
+            
+    </div>
+    <div id="other" style="display: none;">
+        <div id="message-container">
+            <img id="icon1-resized" src="icon-list.svg">
+            <h1 id="h1-result">Thanks for subscribing!</h1>
+            <p id="result"></p>
+            <button id = "button2">Dismiss message</button>
+        </div>
+    </div>
+</body>
+<script src="main.js"> </script>
+</html>
