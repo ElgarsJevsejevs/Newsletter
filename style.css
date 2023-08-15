@@ -1,0 +1,167 @@
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: hsl(234, 29%, 20%);
+    margin: 0;
+    padding: 0;
+}
+#img1 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+#first-text {
+    margin-bottom: 22px;
+    padding-right: 10px;
+}
+ul {
+    padding: 0;
+    list-style: none;
+    padding-right: 12px;
+}
+li {
+    margin-bottom: 12px;
+}
+#icon1-div {
+    display: flex;
+    align-items: center;
+}
+#lower {
+    padding-left: 20px;
+}
+#icon1 {
+    margin-top: -8px;
+    padding-right: 10px;
+}
+h1 {
+    font-weight: 700;
+}
+label {
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+label, input {
+    display: block;
+    font-size: 12px;
+}
+input {
+    margin-bottom: 14px;
+}
+#email {
+    width: calc(100% - 30px);
+    padding: 16px;
+    color: rgba(0, 0, 0, 0.404);
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.171);
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+#email:focus {
+    color: black;
+}
+#button1, #button2 {
+    background-color: rgb(55, 55, 88);
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    width: calc(100% - 30px);
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+#button1:focus, #button2:focus {
+    color: rgb(48, 84, 201);
+}
+#button1:hover, #button2:hover {
+    background-color: hsl(4, 100%, 67%);
+    transition: all 1s;
+}
+#button2 {
+    margin-top: 160px;
+    width: 100%;
+}
+#icon1-resized {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+}
+#h1-result {
+    inline-size: 60%;
+}
+#result {
+    line-height: 1.5;
+}
+#message-container {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 20px;
+    padding: 18px;
+}
+#email-valid {
+    color: red;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -14px;
+}
+
+@media (min-width: 375px) {
+    #main {
+        min-width: 600px;
+        max-width: 1000px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: 20px;
+        margin: 0 auto; 
+        border-radius: 14px;
+        box-shadow: -1px 1px 10px -2px rgba(0,0,0,0.79);
+        background-position: center center;
+    }
+    body {
+        padding: 10px;
+        margin: 100px 0;
+        background-color: hsl(234, 29%, 20%);
+    }
+    #upper {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        margin-left: 30px;
+        background-image: url('illustration-sign-up-mobile.svg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 12px;
+    }
+    #lower {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        margin: 30px;
+    }
+    #img1 {
+        display: none;
+     }
+    h1 {
+        font-size: 44px;
+    }
+    #icon1-resized {
+        margin-top: 10px;
+        width: 80px;
+        height: 80px;
+    }
+    #message-container {
+        margin-left: 40px;
+    }
+    #button2 {
+        margin-top: 40px;
+        width: 90%;
+    }
+    #other {
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        margin: 0 auto;
+        border-radius: 14px;
+    }
+}
